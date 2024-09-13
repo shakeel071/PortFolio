@@ -594,12 +594,26 @@ section{
 .card:hover img{
     transform: scale(1.1);
 }
-
 .card-info{
     padding-bottom: .5rem;
     flex: 1;
 }
-
+.card-info a{
+    margin-top: 20px;
+}
+.read-mores{
+    background: var(--gradient-white-bg2);
+    box-shadow: rgba(0,0,0,0.1)0px 1px 3px 0,
+                  rgba(0,0,0,0.06)0px 1px 2px 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    display: inline-flex;
+    margin-right: .8rem;
+    cursor: pointer;  
+}
 .card-info h2{
     font-size: 1.2rem;
     margin-top: 1rem;
@@ -1028,8 +1042,5 @@ footer{
         flex: 1 1 calc(33.33% - 1rem);
         margin-bottom: 1rem;
     }
-    .card{
     
-        min-height: 300px;
-    }
 }
