@@ -33,6 +33,22 @@ buttons.forEach((button, index) => {
   });
 });
 
+// dark mode and light mode
+
+const darkModeToggle = document.getElementById('dark_mode_toggle');
+const modeIcon = document.getElementById('mode_icon');
+
+darkModeToggle.onclick = () => {
+    document.body.classList.toggle('dark');
+    if (document.body.classList.contains('dark')) {
+        modeIcon.classList.remove('bx-moon');
+        modeIcon.classList.add('bx-sun');
+    } else {
+        modeIcon.classList.remove('bx-sun');
+        modeIcon.classList.add('bx-moon');
+    }
+};
+
 //project filters ----------------------------------------------
 document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('.filter-buttons button');

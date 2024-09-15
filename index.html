@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
 </head>
-<body>
+<body class="light">
     <div class="overlay"></div>
     <header>
         <a href="#" class="logo"><span>S</span>hakeel</a>
@@ -33,6 +33,9 @@
                 <a href="#contact">Contact</a>
             </li>
         </ul>
+        <div class="dark-mode-switch" id="dark_mode_toggle">
+            <i class="bx bx-moon" id="mode_icon"></i>
+        </div>
         <div class="right-header">
             <a href="https://www.linkedin.com/in/mohammed-shakeel-49ba10288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn">Let's Chat<i class='bx bx-message-dots'></i></a>
             <div class="menu-icon">
@@ -404,9 +407,13 @@
                                 <div class="inner-circle">
                                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
                                         <defs>
-                                            <linearGradient id="GradientColor">
+                                            <linearGradient id="GradientColorLight">
                                             <stop offset="0%" stop-color="#1a2980" />
                                             <stop offset="100%" stop-color="#26d0ce" />
+                                            </linearGradient>
+                                            <linearGradient id="GradientColorDark">
+                                                <stop offset="0%" stop-color="#00d9ff" />
+                                                <stop offset="100%" stop-color="#ee00ff" />
                                             </linearGradient>
                                         </defs>
                                             <circle cx="85" cy="85" r="75" stroke-linecap="round" />
