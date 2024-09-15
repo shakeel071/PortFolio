@@ -124,7 +124,7 @@
     font-size: 21px;
     font-weight: 500;
     background-color: var(--nature);
-    color: black;
+    color: var(--social);
     border-radius: 50%;
     display: flex;
     align-items: center;
