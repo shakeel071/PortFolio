@@ -60,7 +60,6 @@
    rgba(0, 217, 255, 0.05) -25px 25px;
    --dark-sun:#FFD700;
 
-    
 }
 
 .light {
@@ -102,7 +101,6 @@
     --footer:var(--dark-footer);
     --shadow:var(--dark-shadow);
     --nature:var(--dark-sun);
-
 }
 .dark-mode-switch {
     position: relative;
@@ -137,17 +135,14 @@
 .dark .dark-mode-switch i {
     left: calc(2px + 40%); 
     color: #000;
-    /* Change icon color in dark mode */
 }
 
 .dark-mode-switch i.bx-moon {
     content: "\f186";
-    /* Moon icon */
 }
 
 .dark-mode-switch i.bx-sun {
     content: "\f185";
-    /* Sun icon */
 }
 html{
     user-select: none;
