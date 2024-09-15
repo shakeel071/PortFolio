@@ -421,9 +421,12 @@ section{
     position: relative;
     width: 300px;
     height: 300px;
-    background-image: url(image/shr.png);
-    background-position: top 40% right -103px;
+    background-image: url(image/sh1.jpg);
+    background-position: top 30% right -99px;
+  background-size: 500px 500px;
+    background-repeat: no-repeat;
     border-radius: 50%;
+    z-index: 20;
 }
 .rotate-text {
     position: absolute;
