@@ -415,6 +415,7 @@ section{
     height: 300px;
     border-radius: 50%;
     overflow: hidden; 
+    z-index: 10;
 }
 .img-box .image {
     width: 100%;
@@ -422,6 +423,7 @@ section{
    object-fit: cover; 
     border-radius: 50%;
     object-position: 50% 30%; 
+    z-index: 20;
 }
 .rotate-text {
     position: absolute;
