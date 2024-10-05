@@ -395,8 +395,6 @@ section{
 }
 .image-hero{
     position: relative;
-    width: 310px;
-    height: 300px;
     animation: floatImage 4s ease-in-out infinite;
     animation-delay: 3s;
 }
