@@ -395,6 +395,8 @@ section{
 }
 .image-hero{
     position: relative;
+    width: 310px;
+    height: 300px;
     animation: floatImage 4s ease-in-out infinite;
     animation-delay: 3s;
 }
@@ -883,6 +885,7 @@ footer{
     text-align: center;
     margin: 0 8%;
     padding: 2rem 0;
+    color: var(--font);
     border: 2px solid var(--footer);
 }
 #progress{
