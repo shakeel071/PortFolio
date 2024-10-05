@@ -1055,8 +1055,9 @@ footer{
     }
     .image-hero .img-box{
         position: relative;
-        width: 255px;
-        height: 255px;
+        width: 250px;
+        height: 250px;
+        inset: 2px;
         border-radius: 50%;
         z-index: 10;
     }
